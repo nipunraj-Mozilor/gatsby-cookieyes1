@@ -5,6 +5,7 @@ export function onRenderBody({ setHeadComponents }) {
       id='cookieyes'
       type='text/javascript'
       src='https://cdn-cookieyes.com/client_data/4a1165be30e4e56d0c6f7765/script.js'
+      strategy='beforeInteractive'
     ></script>,
   ]);
 }
